@@ -10,8 +10,29 @@
 * Remember Session Credentials
 * Easy to use
 
-Only Ready for Linux (Ubuntu 16.04 and Ubuntu 18.04 both in 64 Bits OS Version) and Microsoft Windows 7 to 10 (32 Bit and 64  Bit is also Supported)
+## Acknowledgements
+
+This version of MAN ADS Client does not support desktop integration, Only Java Client Supports thats Feature (Microsoft Windows and Linux)
+
+## supported platforms
+
+# Linux
+
+Ubuntu 16.04 LTS -> Tested and All OK
+Ubuntu 18.04 LTS -> Tested and All OK
+
+# Microsoft Windows
+
+Windows 7 in 32 and 64 bit -> Tested All OK
+Windows 8 in 32 and 64 bit -> Not tested yet
+Windows 10 in 32 and 64 bit -> Tested All OK
+
+# OSX
 
 If you use OSX please use MAN ADS Java Client.
 
-For more info http://manconsulting.co.uk
+## Contact Info
+
+info@manconsulting.co.uk
+
+Contact info@manconsulting.co.uk or http://manconsulting.co.uk
