@@ -1,12 +1,12 @@
 {
-  "name": "MANOVDClient",
+  "name": "MANADSClient_JAVALEESClient",
   "version": "1.0.0",
-  "description": "MAN OVD Client",
+  "description": "MAN OVD Client (Java Less Client)",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/bacgroup/man_ovd_client",
+  "repository": "https://github.com/bacgroup/man_ads_java_less_client",
   "homepage": "https://manconsulting.co.uk",
   "keywords": [
     "MAN",
@@ -19,7 +19,7 @@
   "author": "salvatore.trimarchi@gmail.com",
   "license": "GNU GPLv3",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~2.0.1"
   },
   "dependencies": {
     "jquery": "^3.2.1",
