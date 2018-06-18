@@ -19,12 +19,15 @@ This version of MAN ADS Client does not support desktop integration, Only Java C
 ### Linux
 
 Ubuntu 16.04 LTS -> Tested and All OK
+
 Ubuntu 18.04 LTS -> Tested and All OK
 
 ### Microsoft Windows
 
 Windows 7 in 32 and 64 bit -> Tested All OK
+
 Windows 8 in 32 and 64 bit -> Not tested yet
+
 Windows 10 in 32 and 64 bit -> Tested All OK
 
 ### OSX
