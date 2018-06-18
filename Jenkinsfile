@@ -98,9 +98,9 @@ EOF"""
             "Zip Linux64": {
                 sh "zip -q MANOVDClient-linux-x64_build-${BUILD_NUMBER}_${STAGE}.zip -r MANOVDClient-linux-x64_build-${BUILD_NUMBER}_${STAGE}"
             },*/
-            "Zip Darwin": {
+            /*"Zip Darwin": {
                 sh "zip -q MANOVDClient-darwin-x64_build-${BUILD_NUMBER}_${STAGE}.zip -r MANOVDClient-darwin-x64_build-${BUILD_NUMBER}_${STAGE}"
-            },
+            },*/
             /*"Zip Win32": {
                 sh "zip -q MANOVDClient-win32-ia32_build-${BUILD_NUMBER}_${STAGE}.zip -r MANOVDClient-win32-ia32_build-${BUILD_NUMBER}_${STAGE}"
             },*/
@@ -117,7 +117,7 @@ EOF"""
     }
     stage "Archive Artifacts"
      dir ('packages') {
-        sh "mv *darwin*.zip \"MAN_ADS_Client_2.0-OSX_Java_Less_Client.zip\""
+        //sh "mv *darwin*.zip \"MAN_ADS_Client_2.0-OSX_Java_Less_Client.zip\""
         sh "mv *win32-ia32*.zip \"MAN_ADS_Client_2.0-Windows_Java_Less_Client.zip\""
         sh "mv MANOVDClient_1.0.0_amd64.deb \"MAN_ADS_Client_2.0-Linux_Java_Less_Client.deb\""
         archiveArtifacts "*.zip"
