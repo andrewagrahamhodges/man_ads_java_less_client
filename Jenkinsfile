@@ -32,6 +32,21 @@ node("master") {
     sh 'sudo npm install -g electron-installer-debian'
     //sh 'npm install -g electron-installer-windows'
     stage "Create Packages"
+    parallel(/* "Linux32": {
+        sh "electron-packager . --overwrite --out packages --ignore packages --build-version ${BUILD_NUMBER} --platform=linux --arch=ia32  --icon=${ICON_STD} --tmpdir=false"
+    },*/
+    "Linux64": {
+        sh "electron-packager . --overwrite --out packages --ignore packages --build-version ${BUILD_NUMBER} --platform=linux --arch=x64  --icon=${ICON_STD} --tmpdir=false"
+    },
+    "Darwin": {
+        sh "electron-packager . --overwrite --out packages --ignore packages --build-version ${BUILD_NUMBER} --platform=darwin  --icon=${ICON_DARWIN} --tmpdir=false"
+    },
+    "Win32": {
+        sh "electron-packager . --overwrite --out packages --ignore packages --build-version ${BUILD_NUMBER} --platform=win32 --arch=ia32  --icon=${ICON_WINDOWS} --tmpdir=false"
+    }
+    /*"Win64": {
+        sh "electron-packager . --overwrite --out packages --ignore packages --build-version ${BUILD_NUMBER} --platform=win32 --arch=x64  --icon=${ICON_WINDOWS} --tmpdir=false"
+    }*/)
     dir ('packages') {
     sh """cat <<EOF > config.json
 {
