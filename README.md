@@ -12,9 +12,9 @@
 
 ## Acknowledgements
 
-This version of MAN ADS Client does not support desktop integration, Only Java Client Supports thats Feature (Microsoft Windows and Linux)
+This version of MAN ADS Client does not support Desktop Integration Feature, Only MAN ADS Java Client Supports Desktop Integration Feature (Microsoft Windows and Linux Only)
 
-## supported platforms
+## Supported Platforms
 
 ### Linux
 
@@ -34,8 +34,6 @@ Windows 10 in 32 and 64 bit -> Tested All OK
 
 If you use OSX please use MAN ADS Java Client.
 
-## Contact Info
+## MAN Consulting Ltd
 
-info@manconsulting.co.uk
-
-Contact info@manconsulting.co.uk or http://manconsulting.co.uk
+http://manconsulting.co.uk
