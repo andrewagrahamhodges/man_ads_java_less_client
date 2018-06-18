@@ -22,13 +22,15 @@ Ubuntu 16.04 LTS -> Tested and All OK
 
 Ubuntu 18.04 LTS -> Tested and All OK
 
-### Microsoft Windows
+### Microsoft Windows (32 and 64 Bits)
 
-Windows 7 in 32 and 64 bit -> Tested All OK
+Microsoft Windows 7 Professional  -> Tested All OK
 
-Windows 8 in 32 and 64 bit -> Not tested yet
+Microsoft Windows 8 -> Not tested yet
 
-Windows 10 in 32 and 64 bit -> Tested All OK
+Microsoft Windows 10 Professional -> Tested All OK
+
+Microsoft Windows 10 Home -> Tested All OK
 
 ### OSX
 
