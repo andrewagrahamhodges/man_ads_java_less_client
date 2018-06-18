@@ -10,9 +10,9 @@
 * Remember Session Credentials
 * Easy to use
 
-## Acknowledgements
+## Desktop Integration Feature
 
-This version of MAN ADS Client does not support Desktop Integration Feature, Only MAN ADS Java Client Supports Desktop Integration Feature (Microsoft Windows and Linux Only)
+This version of MAN ADS Client is not compatible with the "Desktop Integration" feature, only the Java client version supports that feature (only in Microsoft Windows and Linux)
 
 ## Supported Platforms
 
