@@ -12,7 +12,7 @@
 
 ## Desktop Integration Feature
 
-MAN ADS Java Less Client is not compatible with "Desktop Integration" feature, only the Java client version supports that feature (only in Microsoft Windows and Linux)
+MAN ADS Java Less Client is not compatible with "Desktop Integration" feature, only [MAN ADS Java Client](https://github.com/bacgroup/man_ovd_client) version supports that feature (only in Microsoft Windows and Linux)
 
 ## Supported Platforms
 
