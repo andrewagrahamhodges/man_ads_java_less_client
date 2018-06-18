@@ -32,6 +32,23 @@ node("master") {
     sh 'sudo npm install -g electron-installer-debian'
     //sh 'npm install -g electron-installer-windows'
     stage "Create Packages"
+    dir ('packages') {
+    sh """cat <<EOF > config.json
+{
+  "dest": "..",
+  "icon": "../${ICON_STD}",
+  "categories": [
+    "Utility"
+  ],
+  "depends": [
+    "freerdp"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}
+EOF"""
+}
                 parallel(
             "Windows ia32 Installer": {
                 sh "node createwindows32installer.js"
