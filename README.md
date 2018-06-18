@@ -1,4 +1,4 @@
-# MAN OVD Client
+# MAN ADS Java Less Client
 
 ![Man Consulting Logo](https://github.com/bacgroup/man_ovd_client/raw/develop/manconsultinglogo.png)
 
@@ -10,6 +10,8 @@
 * Remember Session Credentials
 * Easy to use
 
-Ready for Linux, Darwin and Windows.
+Ready for Linux, and Windows Only
+
+If you use OSX please use https://github.com/bacgroup/man_ovd_client
 
 For more info http://manconsulting.co.uk
