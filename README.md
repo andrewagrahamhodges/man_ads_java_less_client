@@ -18,9 +18,9 @@ MAN ADS Java Less Client is not compatible with "Desktop Integration" feature, o
 
 ### Linux (64 Bits Only)
 
-* Ubuntu 16.04 LTS -> Tested and All OK
+* Ubuntu 16.04 LTS -> Tested All OK
 
-* Ubuntu 18.04 LTS -> Tested and All OK
+* Ubuntu 18.04 LTS -> Tested All OK
 
 ### Microsoft Windows (32 and 64 Bits)
 
