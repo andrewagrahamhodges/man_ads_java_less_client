@@ -10,8 +10,8 @@
 * Remember Session Credentials
 * Easy to use
 
-Only Ready for Linux (Ubuntu 16.04 and Ubuntu 18.04 both in 64 Bits OS Version) and Microsoft Windows 7 to 10 (32 Bit and 64  Bit is Also Supported)
+Only Ready for Linux (Ubuntu 16.04 and Ubuntu 18.04 both in 64 Bits OS Version) and Microsoft Windows 7 to 10 (32 Bit and 64  Bit is also Supported)
 
-If you use OSX please use https://github.com/bacgroup/man_ovd_client
+If you use OSX please use MAN ADS Java Client.
 
 For more info http://manconsulting.co.uk
