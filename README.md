@@ -18,23 +18,23 @@ MAN ADS Java Less Client is not compatible with "Desktop Integration" feature, o
 
 ### Linux (64 Bits Only)
 
-Ubuntu 16.04 LTS -> Tested and All OK
+* Ubuntu 16.04 LTS -> Tested and All OK
 
-Ubuntu 18.04 LTS -> Tested and All OK
+* Ubuntu 18.04 LTS -> Tested and All OK
 
 ### Microsoft Windows (32 and 64 Bits)
 
-Microsoft Windows 7 Professional  -> Tested All OK
+* Microsoft Windows 7 Professional  -> Tested All OK
 
-Microsoft Windows 8 -> Not tested yet
+* Microsoft Windows 8 -> Not tested yet
 
-Microsoft Windows 10 Professional -> Tested All OK
+* Microsoft Windows 10 Professional -> Tested All OK
 
-Microsoft Windows 10 Home -> Tested All OK
+* Microsoft Windows 10 Home -> Tested All OK
 
 ### OSX
 
-Not supported. Please try with [MAN ADS Java Client](https://github.com/bacgroup/man_ovd_client)
+* Not supported. Please try with [MAN ADS Java Client](https://github.com/bacgroup/man_ovd_client)
 
 ## MAN Consulting Ltd
 
