@@ -32,7 +32,7 @@ Windows 10 in 32 and 64 bit -> Tested All OK
 
 ### OSX
 
-If you use OSX please use MAN ADS Java Client.
+Not supported. Please try with [MAN ADS Java Client](https://github.com/bacgroup/man_ovd_client)
 
 ## MAN Consulting Ltd
 
